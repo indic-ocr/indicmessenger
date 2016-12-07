@@ -1,0 +1,32 @@
+{
+  "name": "Indic-OCR-Messenger-App",
+  "version": "1.0.0",
+  "description": "Messenger app for recognition of sign boards in Indian Languages",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
+  },
+  "author": "RKVS Raman",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "fs": "0.0.1-security",
+    "pg": "6.1.0",
+    "request": "^2.72.0",
+    "requestify": "^0.2.3",
+    "urlencode": "^1.1.0",
+    "util": "^0.10.3"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
