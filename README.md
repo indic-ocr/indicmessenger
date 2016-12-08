@@ -1,36 +1,21 @@
-# Messenger Platform Sample -- node.js
+### Indic Messenger 
 
-This project is an example server for Messenger Platform built in Node.js. With this app, you can send it messages and it will echo them back to you. You can also see examples of the different types of Structured Messages. 
+Indic Messenger is Facebook Chat bot which  uses [OCR Service](https://indic-ocr.github.io/ocrservice/)  to convert User clicked photos to text and provide transliteration to a different Indic Script
 
-It contains the following functionality:
+Click below to see the video demo of the chat bot in action 
 
-* Webhook (specifically for Messenger Platform events)
-* Send API 
-* Web Plugins
-* Messenger Platform v1.1 features
+[![Youtube Video](https://img.youtube.com/vi/7Dpx5neMZSk/0.jpg)](https://youtu.be/7Dpx5neMZSk)
 
-Follow the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about this project in more detail.
+To add the chatbot to your list start on a conversation on [Indic OCR Facebook Page](https://www.facebook.com/indicocr/?fref=ts) 
 
-## Setup
+The chat bot understands following commands
 
-Set the values in `config/default.json` before running the sample. Descriptions of each parameter can be found in `app.js`. Alternatively, you can set the corresponding environment variables as defined in `app.js`.
+* Help
+* Source <lang> _(Could be one of Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Oriya, Punjabi, Tamil, Telugu)_
+* Transliterate <lang> _(Could be one of Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Oriya, Punjabi, Tamil, Telugu)_
 
-Replace values for `APP_ID` and `PAGE_ID` in `public/index.html`.
 
-## Run
 
-You can start the server by running `npm start`. However, the webhook must be at a public URL that the Facebook servers can reach. Therefore, running the server locally on your machine will not work.
+### Authors and Contributors
+@rkvsraman
 
-You can run this example on a cloud service provider like Heroku, Google Cloud Platform or AWS. Note that webhooks must have a valid SSL certificate, signed by a certificate authority. Read more about setting up SSL for a [Webhook](https://developers.facebook.com/docs/graph-api/webhooks#setup).
-
-## Webhook
-
-All webhook code is in `app.js`. It is routed to `/webhook`. This project handles callbacks for authentication, messages, delivery confirmation and postbacks. More details are available at the [reference docs](https://developers.facebook.com/docs/messenger-platform/webhook-reference).
-
-## "Send to Messenger" and "Message Us" Plugin
-
-An example of the "Send to Messenger" plugin and "Message Us" plugin are located at `index.html`. The "Send to Messenger" plugin can be used to trigger an authentication event. More details are available at the [reference docs](https://developers.facebook.com/docs/messenger-platform/plugin-reference).
-
-## License
-
-See the LICENSE file in the root directory of this source tree. Feel free to useand modify the code.
