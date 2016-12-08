@@ -1,0 +1,4 @@
+
+Indic Messenger only uses the numeric id of the user to store the preferences set by the user in source and target language. 
+
+Apart from these we do not use, process any information pertaining to the user. None of the image content uploaded by users are stored on our server and any images used for processing the OCR is removed periodically.
