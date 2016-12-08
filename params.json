@@ -1,0 +1,6 @@
+{
+  "name": "Indic Messenger",
+  "tagline": "Indic OCR Service on Facebook Messenger",
+  "body": "### Indic Messenger \r\n\r\nIndic Messenger is Facebook Chat bot which  uses [OCR Service](https://indic-ocr.github.io/ocrservice/)  to convert User clicked photos to text and provide transliteration to a different Indic Script\r\n\r\nClick below to see the video demo of the chat bot in action \r\n\r\n[![Youtube Video](https://img.youtube.com/vi/7Dpx5neMZSk/0.jpg)](https://youtu.be/7Dpx5neMZSk)\r\n\r\nTo add the chatbot to your list start on a conversation on [Indic OCR Facebook Page](https://www.facebook.com/indicocr/?fref=ts) \r\n\r\nThe chat bot understands following commands\r\n\r\n* Help\r\n* Source <lang> _(Could be one of Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Oriya, Punjabi, Tamil, Telugu)_\r\n* Transliterate <lang> _(Could be one of Bengali, English, Gujarati, Hindi, Kannada, Malayalam, Oriya, Punjabi, Tamil, Telugu)_\r\n\r\n\r\n\r\n### Authors and Contributors\r\n@rkvsraman\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
